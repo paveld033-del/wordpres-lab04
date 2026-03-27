@@ -1,0 +1,63 @@
+﻿.usm-notes {
+	border: 1px solid #d9d9d9;
+	border-radius: 12px;
+	padding: 1rem;
+	background: #fdfdfd;
+	max-width: 900px;
+}
+
+.usm-notes__list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: grid;
+	gap: 1rem;
+}
+
+.usm-notes__item {
+	padding: 1rem;
+	border: 1px solid #ececec;
+	border-radius: 10px;
+	background: #ffffff;
+}
+
+.usm-notes__title {
+	margin: 0 0 0.5rem;
+	font-size: 1.2rem;
+	line-height: 1.35;
+}
+
+.usm-notes__meta {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem;
+	font-size: 0.92rem;
+	color: #4f4f4f;
+	margin-bottom: 0.75rem;
+}
+
+.usm-notes--empty,
+.usm-notes--error {
+	padding: 0.8rem 1rem;
+	border-radius: 10px;
+	font-weight: 600;
+}
+
+.usm-notes--empty {
+	background: #fff8e7;
+	border: 1px solid #f3d28a;
+}
+
+.usm-notes--error {
+	background: #ffe8e8;
+	border: 1px solid #f0a7a7;
+}
+
+.usm-notes-widget {
+	margin: 0;
+	padding-left: 1.1rem;
+}
+
+.usm-notes-widget__item {
+	margin: 0 0 0.4rem;
+}
